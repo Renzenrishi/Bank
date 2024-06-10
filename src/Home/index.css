@@ -1,0 +1,32 @@
+.home-page {
+  background-color: #152850;
+  height: 100vh;
+  padding: 10px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 33px;
+}
+
+.logout-btn {
+  background-color: transparent;
+  border-color: white;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  border-style: solid;
+  height: 30px;
+  width: 80px;
+}
