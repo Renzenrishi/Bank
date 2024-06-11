@@ -12,7 +12,7 @@ const App = () => (
   <Switch>
     <Route exact path="/ebank/login" component={Login} />
     <ProtectedRoute exact path="/" component={Home} />
-    <ProtectedRoute exact path="/not-found" component={NotFound} />
+    <Route exact path="/not-found" component={NotFound} />
     <Redirect to="/not-found" />
   </Switch>
 )
